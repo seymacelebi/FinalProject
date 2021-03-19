@@ -17,7 +17,7 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-
+      
         public IResult Add(Product product)
         {
             //iş kodları yazılır. 

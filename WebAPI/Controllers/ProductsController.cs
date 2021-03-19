@@ -16,6 +16,7 @@ namespace WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         //Loosely coupled
+        //naming convention
         IProductService _productService;
 
         public ProductsController(IProductService productService)
